@@ -13,6 +13,8 @@
 		791A5158238865950014209F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791A5156238865950014209F /* Main.storyboard */; };
 		791A515A238865960014209F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791A5159238865960014209F /* Assets.xcassets */; };
 		791A515D238865960014209F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791A515B238865960014209F /* LaunchScreen.storyboard */; };
+		791A5165238866080014209F /* SquareAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A5164238866080014209F /* SquareAPI.swift */; };
+		791A5167238866450014209F /* SquareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791A5166238866450014209F /* SquareModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		791A5159238865960014209F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		791A515C238865960014209F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		791A515E238865960014209F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791A5164238866080014209F /* SquareAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareAPI.swift; sourceTree = "<group>"; };
+		791A5166238866450014209F /* SquareModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				791A5159238865960014209F /* Assets.xcassets */,
 				791A515B238865960014209F /* LaunchScreen.storyboard */,
 				791A515E238865960014209F /* Info.plist */,
+				791A5164238866080014209F /* SquareAPI.swift */,
+				791A5166238866450014209F /* SquareModel.swift */,
 			);
 			path = MyRepo;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791A5167238866450014209F /* SquareModel.swift in Sources */,
 				791A5155238865950014209F /* ViewController.swift in Sources */,
+				791A5165238866080014209F /* SquareAPI.swift in Sources */,
 				791A5151238865950014209F /* AppDelegate.swift in Sources */,
 				791A5153238865950014209F /* SceneDelegate.swift in Sources */,
 			);
